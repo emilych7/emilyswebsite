@@ -4,46 +4,46 @@ export default function Resume() {
 
     return (
         <div className="overflow-x-scroll h-full no-scrollbar flex-col">
-            <div className="text-4xl z-10 font-bold text-center bg-primary border-b-2 border-accent sticky top-0">Experience</div>
-            <ol className="px-8">
-                <li className="py-1">
+            <div className="text-4xl z-10 pb-1 font-bold text-center bg-primary border-b-2 border-accent sticky top-0">Experience</div>
+            <ol className="pt-3 px-2 sm:px-8">
+                <li className="py-3 sm:py-2">
                     <div class="flex flex-col p-4 rounded-xl text-left transition ease-in-out delay-50 duration-200 text-white hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="font-bold text-xl">Computer Lab Manager</h2>
                         <h4 className="font-semi-bold text-md py-1">Office of Information Technology at UC Merced</h4>
                         <p className="text-sm">Provided on-demand IT support for instructors during lecture and answered tickets using ServiceNow. Managed the building, testing, and deployment of virtual machines via Amazon Web Services for Remote Lab at UCM. Aligned with vendors for the repair and replacement of faulty hardware components and provided technology consultations. Performed software installations and license renewals for over 300 Windows computers. Using Powershell for task automation on Windows OS.</p>
-                        <div className="flex flex-row space-x-4 pt-3">
-                            <div className="flex flex-row text-sm justify-center space-x-1 bg-success rounded-full shadow-md px-4 py-1 text-white">
+                        <div className="flex flex-wrap sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-3">
+                            <div className="flex flex-row text-sm justify-center space-x-2 bg-success rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>Amazon Web Services</h2>
                                 <img className="size-5" src="../Amazon.svg" alt="AWS Logo"/>
                             </div>
-                            <div className="flex flex-row text-sm justify-center space-x-1 bg-success rounded-full shadow-md px-4 py-1 text-white">
+                            <div className="flex flex-row text-sm justify-center space-x-2 bg-success rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>PowerShell</h2>
-                                <img className="size-5" src="../PowerShell.svg" alt="AWS Logo"/>
+                                <img className="size-5" src="../PowerShell.svg" alt="PowerShell Logo"/>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li className="py-2">
+                <li className="py-3 sm:py-2">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="font-bold text-xl">Intern in Software Development</h2>
                         <h4 className="font-semi-bold text-md py-1">Bay Valley Tech | Modesto, California</h4>
                         <p className="text-sm">Designed 5+ projects using HTML, CSS, JavaScript, React.js, and Node.js. Coordinated with a team of 7 software developers to deliver projects within deadlines. Contributed to full-stack projects with a team of 5 following agile methodologies. Prioritized technology features based on user requirements and specifications.</p>
-                        <div className="flex flex-row space-x-4 pt-3">
+                        <div className="grid grid-cols-2 gap-4 sm:flex sm:flex-wrap w-full py-3  space-x-4 sm:space-y-0 sm:space-x-4 pt-3">
                             <div className="flex flex-row text-sm justify-center space-x-2 bg-success rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>JavaScript</h2>
-                                <img className="size-5" src="../JavaScript.svg" alt="AWS Logo"/>
+                                <img className="size-5" src="../JavaScript.svg" alt="JavaScript Logo"/>
                             </div>
                             <div className="flex flex-row text-sm justify-center space-x-2 bg-success rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>React.JS</h2>
-                                <img className="size-5" src="../React.svg" alt="AWS Logo"/>
+                                <img className="size-5" src="../React.svg" alt="React Logo"/>
                             </div>
                             <div className="flex flex-row text-sm justify-center space-x-2 bg-success rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>Next.JS</h2>
-                                <img className="size-5" src="../Next.svg" alt="AWS Logo"/>
+                                <img className="size-5" src="../Next.svg" alt="Next Logo"/>
                             </div>
                             <div className="flex flex-row text-sm justify-center space-x-2 bg-success rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>HTML</h2>
-                                <img className="size-5" src="../HTML.svg" alt="AWS Logo"/>
+                                <img className="size-5" src="../HTML.svg" alt="HTML Logo"/>
                             </div>
                             <div className="flex flex-row text-sm justify-center space-x-2 bg-success rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>CSS</h2>
@@ -52,7 +52,7 @@ export default function Resume() {
                         </div>
                     </div>
                 </li>
-                <li className="py-2">
+                <li className="py-3 sm:py-2">
                     <div class="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="font-bold text-xl">Undergraduate Research Assistant</h2>
                         <h4 className="font-semi-bold text-md py-1">University of California Pavement Research Center | UC Davis</h4>
@@ -65,7 +65,7 @@ export default function Resume() {
                         </div>
                     </div>
                 </li>
-                <li className="py-2">
+                <li className="py-3 sm:py-2">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="font-bold text-xl">Research Assistant in Cardiovascular Tissue Engineering</h2>
                         <h4 className="font-semi-bold text-md py-1">Center for Cellular and Biomolecular Machines at UC Merced</h4>
@@ -79,39 +79,36 @@ export default function Resume() {
                     </div>
                 </li>
             </ol>
-            <div className="text-4xl z-10 font-bold text-center bg-primary border-b-2 border-accent sticky top-0">Education</div>
-            <ol className="px-8">
-                <li className="py-2">
+            <div className="text-4xl z-10 pb-1 font-bold text-center bg-primary border-b-2 border-accent sticky top-0">Education</div>
+            <ol className="pt-3 px-2 sm:px-8">
+                <li className="py-3 sm:py-2">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
-                        <h2 className="flex flex-row justify-between font-bold text-xl">Master of Science in Computer Science
-                            <div className="flex flex-row text-sm justify-center space-x-1 bg-success rounded-full shadow-md px-4 py-1 text-white">
-                                <h2>Fall 2024 - Spring 2026</h2>
-                            </div>
-                        </h2>
+                        <h2 className="flex flex-row justify-between font-bold text-xl">Master of Science in Computer Science</h2>
                         <h4 className="font-semi-bold text-md py-1">Georgia Institute of Technology</h4>
-                        <p className="text-sm">Specialization in Interactive Intelligence</p>
+                        <p className="text-sm pb-3">Specialization in Interactive Intelligence</p>
+                        <div className="flex flex-row text-sm justify-center space-x-1 bg-neutral rounded-full shadow-md px-4 py-1 text-white">
+                                <h2>Fall 2024 - Spring 2026</h2>
+                        </div>
                     </div>
                 </li>
-                <li className="py-2">
+                <li className="py-3 sm:py-2">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
-                        <h2 className="flex flex-row justify-between font-bold text-xl">Bachelor of Art in Psychology
-                            <div className="flex flex-row text-sm justify-center space-x-1 bg-success rounded-full shadow-md px-4 py-1 text-white">
-                                <h2>Fall 2019 - Spring 2022</h2>
-                            </div>
-                        </h2>
+                        <h2 className="flex flex-row justify-between font-bold text-xl">Bachelor of Arts in Psychology</h2>
                         <h4 className="font-semi-bold text-md py-1">University of California, Davis</h4>
-                        <p className="text-sm">Relevant coursework in Calculus, Research Methods, Developmental Psychobiology, Cognitive Neuroscience</p>
+                        <p className="text-sm pb-3">Relevant coursework in Calculus, Research Methods, Developmental Psychobiology, Cognitive Neuroscience</p>
+                        <div className="flex flex-row text-sm justify-center space-x-1 bg-neutral rounded-full shadow-md px-4 py-1 text-white">
+                                <h2>Fall 2019 - Spring 2022</h2>
+                        </div>
                     </div>
                 </li>
-                <li className="py-2">
+                <li className="py-3 sm:py-2">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
-                        <h2 className="flex flex-row justify-between font-bold text-xl">Supplemental Coursework
-                            <div className="flex flex-row text-sm justify-center space-x-1 bg-success rounded-full shadow-md px-4 py-1 text-white">
-                                <h2>Fall 2021 - Fall 2023</h2>
-                            </div>
-                        </h2>
+                        <h2 className="flex flex-row justify-between font-bold text-xl">Supplemental Coursework</h2>
                         <h4 className="font-semi-bold text-md py-1">Merced College</h4>
-                        <p className="text-sm">Computer Info Systems, Programming Concepts (Python), App Development and Programming (Python), Advanced C++ Programming, Linear Algebra, Statistics</p>
+                        <p className="text-sm pb-3">Computer Info Systems, Programming Concepts (Python), App Development and Programming (Python), Advanced C++ Programming, Linear Algebra, Statistics</p>
+                        <div className="flex flex-row text-sm justify-center space-x-1 bg-neutral rounded-full shadow-md px-4 py-1 text-white">
+                                <h2>Fall 2020 - Fall 2023</h2>
+                        </div>
                     </div>
                 </li>
             </ol>
