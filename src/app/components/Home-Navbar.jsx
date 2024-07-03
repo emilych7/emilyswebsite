@@ -66,7 +66,7 @@ export default function HomeNavbar() {
             </div>
             <div className="drawer-side z-10">
                 <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-                <div className="menu bg-white text-base-content min-h-full w-1/4">
+                <div className="menu bg-white text-base-content min-h-full w-80">
                     <MenuNavBar />
                     <ul className="flex-col space-y-2">
                         <MenuItem name="ChatBot Component"/>

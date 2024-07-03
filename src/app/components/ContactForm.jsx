@@ -8,7 +8,7 @@ export default function ContactForm() {
         event.preventDefault();
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "");
+        formData.append("access_key", process.env.YOUR_ACCESS_KEY_HERE);
 
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
