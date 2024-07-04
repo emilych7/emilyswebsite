@@ -7,7 +7,7 @@ import MenuNavBar from "./Menu-Navbar";
 export default function HomeNavbar() {
 
     return (
-        <div className="bg-primary fixed drawer text-secondary">
+        <div className="fixed bg-primary drawer text-secondary">
             <input id="my-drawer" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content">
                 <div className="navbar">
