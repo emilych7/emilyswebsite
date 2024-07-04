@@ -3,10 +3,10 @@ import React from "react";
 export default function Resume() {
 
     return (
-        <div className="overflow-x-scroll h-full no-scrollbar flex-col">
+        <div className="h-screen w-full sm:px-10 no-scrollbar overflow-x-scroll text-secondary">
             <div className="text-4xl z-10 pb-1 font-bold text-center bg-primary border-b-2 border-accent sticky top-0">Experience</div>
-            <ol className="pt-3 px-2 sm:px-8">
-                <li className="py-3 sm:py-2">
+            <div className="pt-3 px-2 sm:px-8">
+                <div className="py-3 sm:py-2">
                     <div class="flex flex-col p-4 rounded-xl text-left transition ease-in-out delay-50 duration-200 text-white hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="font-bold text-xl">Computer Lab Manager</h2>
                         <h4 className="font-semi-bold text-md py-1">Office of Information Technology at UC Merced</h4>
@@ -22,8 +22,8 @@ export default function Resume() {
                             </div>
                         </div>
                     </div>
-                </li>
-                <li className="py-3 sm:py-2">
+                </div>
+                <div className="py-3 sm:py-2">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="font-bold text-xl">Intern in Software Development</h2>
                         <h4 className="font-semi-bold text-md py-1">Bay Valley Tech | Modesto, California</h4>
@@ -51,8 +51,8 @@ export default function Resume() {
                             </div>
                         </div>
                     </div>
-                </li>
-                <li className="py-3 sm:py-2">
+                </div>
+                <div className="py-3 sm:py-2">
                     <div class="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="font-bold text-xl">Undergraduate Research Assistant</h2>
                         <h4 className="font-semi-bold text-md py-1">University of California Pavement Research Center | UC Davis</h4>
@@ -64,8 +64,8 @@ export default function Resume() {
                             </div>
                         </div>
                     </div>
-                </li>
-                <li className="py-3 sm:py-2">
+                </div>
+                <div className="py-3 sm:py-2">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="font-bold text-xl">Research Assistant in Cardiovascular Tissue Engineering</h2>
                         <h4 className="font-semi-bold text-md py-1">Center for Cellular and Biomolecular Machines at UC Merced</h4>
@@ -77,11 +77,11 @@ export default function Resume() {
                             </div>
                         </div>
                     </div>
-                </li>
-            </ol>
-            <div className="text-4xl z-10 pb-1 font-bold text-center bg-primary border-b-2 border-accent sticky top-0">Education</div>
-            <ol className="pt-3 px-2 sm:px-8">
-                <li className="py-3 sm:py-2">
+                </div>
+            </div>
+            <div className="text-4xl z-20 pb-1 font-bold text-center bg-primary border-b-2 border-accent sticky top-0">Education</div>
+            <div className="pt-3 px-2 pb-5 sm:pb-10 sm:px-8">
+                <div className="py-3 sm:py-2">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="flex flex-row justify-between font-bold text-xl">Master of Science in Computer Science</h2>
                         <h4 className="font-semi-bold text-md py-1">Georgia Institute of Technology</h4>
@@ -90,8 +90,8 @@ export default function Resume() {
                                 <h2>Fall 2024 - Spring 2026</h2>
                         </div>
                     </div>
-                </li>
-                <li className="py-3 sm:py-2">
+                </div>
+                <div className="py-3 sm:py-2">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="flex flex-row justify-between font-bold text-xl">Bachelor of Arts in Psychology</h2>
                         <h4 className="font-semi-bold text-md py-1">University of California, Davis</h4>
@@ -100,18 +100,18 @@ export default function Resume() {
                                 <h2>Fall 2019 - Spring 2022</h2>
                         </div>
                     </div>
-                </li>
-                <li className="py-3 sm:py-2">
+                </div>
+                <div className="py-3 sm:py-2">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-primary">
                         <h2 className="flex flex-row justify-between font-bold text-xl">Supplemental Coursework</h2>
                         <h4 className="font-semi-bold text-md py-1">Merced College</h4>
                         <p className="text-sm pb-3">Computer Info Systems, Programming Concepts (Python), App Development and Programming (Python), Advanced C++ Programming, Linear Algebra, Statistics</p>
                         <div className="flex flex-row text-sm justify-center space-x-1 bg-neutral rounded-full shadow-md px-4 py-1 text-white">
-                                <h2>Fall 2020 - Fall 2023</h2>
+                                <h2>Fall 2021 - Fall 2023</h2>
                         </div>
                     </div>
-                </li>
-            </ol>
+                </div>
+            </div>
         </div>
     )
 }
