@@ -1,5 +1,4 @@
-import React from 'react'
-import HomeNavbar from '../components/Home-Navbar'
+import React from 'react';
 
 export default function RootLayout({
     children,
