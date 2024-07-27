@@ -3,12 +3,12 @@ import React from "react";
 export default function Education() {
 
     return (
-        <div className="flex flex-col xl:flex-row-reverse size-full py-12 justify-center items-center text-white xl:space-x-5">
+        <div className="flex flex-col xl:flex-row-reverse size-full py-12 justify-center items-center text-white space-x-5">
             <div className="flex w-full xl:w-1/5 justify-center">
                 <h1 className="text-secondary text-3xl xl:text-5xl font-bold border-white size-full text-center border-b-4 p-3">Education</h1></div>
-            <div className="flex flex-col w-full xl:w-2/5 h-5/6 2xl:justify-center overflow-y-scroll no-scrollbar px-3 xl:p-11">
+            <div className="flex flex-col w-full xl:w-3/5 h-4/6 xl:h-5/6 2xl:justify-center overflow-y-scroll no-scrollbar px-3 xl:p-11">
                 <div className="py-3 sm:py-2">
-                    <div class="flex flex-col p-4 rounded-xl text-left transition ease-in-out delay-50 duration-200 text-white hover:scale-105 hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out delay-50 duration-200 text-white hover:scale-105 hover:bg-white hover:text-black">
                         <h2 className="font-bold text-2xl xl:text-3xl">Master of Science in Computer Science</h2>
                         <h4 className="font-semi-bold text-lg py-1">Georgia Institute of Technology</h4>
                         <p className="text-sm">Specialization in Interactive Intelligence</p>
@@ -19,7 +19,7 @@ export default function Education() {
                         </div>
                     </div>
                 </div>
-                <div className="py-3 sm:py-2">
+                <div className="py-3 sm:py-2 ">
                     <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-black">
                         <h2 className="font-bold text-2xl xl:text-3xl">Bachelor of Arts in Psychology</h2>
                         <h4 className="font-semi-bold text-lg py-1">University of California, Davis</h4>
@@ -32,7 +32,7 @@ export default function Education() {
                     </div>
                 </div>
                 <div className="py-3 sm:py-2">
-                    <div class="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-black">
                         <h2 className="font-bold text-2xl xl:text-3xl">Supplemental Coursework</h2>
                         <h4 className="font-semi-bold text-lg py-1">Merced College</h4>
                         <p className="text-sm">Computer Info Systems, Programming Concepts (Python), App Development and Programming (Python), Advanced C++ Programming, Linear Algebra, Statistics</p>

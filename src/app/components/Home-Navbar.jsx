@@ -1,19 +1,24 @@
 "use client";
-import React from "react";
-import Link from "next/link";
-import ThemeSwitch from ".//ThemeSwitch.jsx";
+import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 export default function HomeNavbar() {
 
+    const [islight, setIsLight] = useState(
+        JSON.parse(localStorage.getItem('islight'))
+    );
+
+    useEffect(() => {
+        localStorage.setItem('islight', JSON.stringify(islight));
+    }, [islight]);
+
     return (
-        <div className="w-full text-white">
-                <div className="navbar">
-                    <div className="z-40 flex-1 p-3">
-                        <Link href="/"><button className="btn btn-ghost text-2xl">emily.chrisann</button></Link>
+        <div className="absolute w-full navbar text-white px-2 xl:px-4">
+                    <div className="navbar-start z-40 flex-1">
+                        <Link href="/"><button className="btn btn-ghost text-xl">emily.chrisann</button></Link>
                     </div>
                     <div className="navbar-end flex flex-row pr-3">
                         <a className="z-40 btn btn-ghost btn-circle">
-                            <ThemeSwitch/>
                         </a>
                         <a target="_blank" href="https://github.com/emilych7" className="z-40 btn btn-ghost btn-circle">
                             <svg
@@ -37,6 +42,5 @@ export default function HomeNavbar() {
                         </a>
                     </div>
                 </div>
-        </div>
     )
 }

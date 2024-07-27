@@ -6,7 +6,7 @@ export default function Experience() {
         <div className="flex flex-col xl:flex-row size-full py-12 justify-center items-center text-white space-x-5">
             <div className="flex w-full xl:w-1/5 justify-center">
                 <h1 className="text-secondary text-center size-full text-2xl xl:text-5xl font-bold border-white border-b-4 p-3">Professional Experience</h1></div>
-            <div className="flex flex-col w-full xl:w-3/5 h-5/6 overflow-y-scroll no-scrollbar px-3 xl:p-11">
+            <div className="flex flex-col w-full xl:w-3/5 h-4/6 xl:h-5/6 overflow-y-scroll no-scrollbar px-3 xl:p-11">
                 <div className="py-3 sm:py-2">
                     <div class="flex flex-col p-4 rounded-xl text-left transition ease-in-out delay-50 duration-200 text-white hover:scale-105 hover:bg-white hover:text-black">
                         <h2 className="font-bold text-2xl xl:text-3xl">Computer Lab Manager</h2>
