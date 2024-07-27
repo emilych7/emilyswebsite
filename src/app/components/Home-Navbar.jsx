@@ -3,15 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function HomeNavbar() {
-
-    const [islight, setIsLight] = useState(
-        JSON.parse(localStorage.getItem('islight'))
-    );
-
-    useEffect(() => {
-        localStorage.setItem('islight', JSON.stringify(islight));
-    }, [islight]);
-
+    
     return (
         <div className="absolute w-full navbar text-white px-2 xl:px-4">
                     <div className="navbar-start z-40 flex-1">

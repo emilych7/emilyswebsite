@@ -8,7 +8,7 @@ export default function Experience() {
                 <h1 className="text-secondary text-center size-full text-2xl xl:text-5xl font-bold border-white border-b-4 p-3">Professional Experience</h1></div>
             <div className="flex flex-col w-full xl:w-3/5 h-4/6 xl:h-5/6 overflow-y-scroll no-scrollbar px-3 xl:p-11">
                 <div className="py-3 sm:py-2">
-                    <div class="flex flex-col p-4 rounded-xl text-left transition ease-in-out delay-50 duration-200 text-white hover:scale-105 hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out delay-50 duration-200 text-white hover:scale-105 hover:bg-white hover:text-black">
                         <h2 className="font-bold text-2xl xl:text-3xl">Computer Lab Manager</h2>
                         <h4 className="font-semi-bold text-lg py-1">Office of Information Technology at UC Merced</h4>
                         <p className="text-sm">Provided on-demand technical support for faculty and staff using ServiceNow ticketing system. Managed the building, testing, and deployment of virtual machines via Amazon Web Services for Remote Lab at UCM. Aligned with vendors to replace faulty hardware components and gather quotes for university-wide software renewals. Automated annual and semi-annual software installations and license renewals for over 300 Windows computers.</p>
@@ -54,7 +54,7 @@ export default function Experience() {
                     </div>
                 </div>
                 <div className="py-3 sm:py-2">
-                    <div class="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left text-white transition ease-in-out delay-50 duration-200 hover:scale-105 hover:bg-white hover:text-black">
                         <h2 className="font-bold text-2xl xl:text-3xl">Undergraduate Research Assistant</h2>
                         <h4 className="font-semi-bold text-lg py-1">University of California Pavement Research Center | UC Davis</h4>
                         <p className="text-sm">Collected hundreds of samples and prepared specimens of pavement related materials for testing. Utilized MATLAB for data analysis of full-scale accelerated pavement tests conducted with a Heavy Vehicle Simulator. Organized data observations into a quantitative log system for data interpretation by engineers and main operators. Optimized data accessibility and accuracy by refining and updating file structures existing for over 10 years.</p>
