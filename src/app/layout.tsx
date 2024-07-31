@@ -10,7 +10,7 @@ const openSans = Open_Sans ({
   subsets: ['latin'],
 })
 export const metadata: Metadata = {
-  title: "Em's Digital Diary",
+  title: "Emily Chrisann Hernandez",
   description: "Emily's Personal Website",
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="stars " >
+      <body className="stars">
           <div className="twinkling">
             <nav className={openSans.className + " w-full"}>
               <HomeNavbar />
