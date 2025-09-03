@@ -5,14 +5,14 @@ import Education from "./components/Education";
 export default function Home() {
   
   return (
-    <main className="twinkling overflow-y-scroll no-scrollbar snap-mandatory snap-y px-5">
-      <section className="snap-center h-screen">
+    <main className="twinkling overflow-y-scroll no-scrollbar snap-y px-5">
+      <section className="h-screen">
         <Welcome />
       </section>
-      <section className="snap-center h-screen">
+      <section className="h-screen px-5">
         <Experience />
       </section>
-      <section className="snap-center h-screen">
+      <section className="h-screen px-5">
         <Education />
       </section>
     </main>
