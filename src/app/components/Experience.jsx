@@ -17,8 +17,8 @@ export default function Experience() {
                             </div>
                         </div>
                         <p className="text-sm py-2">Led a university-wide hardware refresh by selecting, procuring, and deploying 167 ASUS NUC workstations and Dell monitors, ensuring Windows 11 compatibility and adherence to budget. Managed Remote Lab infrastructure via AWS (AppStream 2.0, Athena), overseeing deployment and maintenance of virtual instances to support teaching and research. Administered server-based imaging and license renewals, streamlining system maintenance and ensuring consistent uptime for academic labs. Automated annual and semi-annual software deployments and licensing for 300+ Windows systems across campus.</p>
-                        <div className="flex flex-wrap space-x-3 space-y-2 pt-3">
-                            <div className="flex flex-row font-semi-bold text-sm justify-center space-x-2 bg-accent rounded-full shadow-md px-4 py-1 text-white">
+                        <div className="flex flex-wrap space-x-4 space-y-2 pt-3">
+                            <div className="flex flex-row text-sm justify-center space-x-2 bg-accent rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>Amazon Web Services</h2>
                                 <img className="size-5" src="../Amazon.svg" alt="AWS Logo"/>
                             </div>
