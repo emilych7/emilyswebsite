@@ -5,16 +5,18 @@ import Education from "./components/Education";
 export default function Home() {
   
   return (
-    <main className="twinkling overflow-y-scroll no-scrollbar snap-y px-5">
-      <section className="h-screen">
+    <div className="twinkling overflow-y-scroll no-scrollbar snap-mandatory snap-y">
+      <section className="snap-center snap-normal h-screen">
         <Welcome />
       </section>
-      <section className="h-screen px-5">
-        <Experience />
-      </section>
-      <section className="h-screen px-5">
+      
+      <section className="snap-center snap-normal h-screen px-5">
         <Education />
       </section>
-    </main>
+
+      <section className="snap-center snap-normal h-fit px-5">
+        <Experience />
+      </section>
+    </div>
   );
 }

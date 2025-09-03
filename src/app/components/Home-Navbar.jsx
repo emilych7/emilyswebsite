@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function HomeNavbar() {
     
     return (
-        <div className="absolute w-full navbar text-white px-2 xl:px-4">
+        <div className="absolute w-full navbar bg-black text-white px-2 xl:px-4">
                     <div className="navbar-start z-40 flex-1">
                         <Link href="/"><button className="btn btn-ghost text-xl transition ease-in-out hover:scale-110 duration-200 ...">emily.chrisann</button></Link>
                     </div>

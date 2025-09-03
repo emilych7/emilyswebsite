@@ -3,12 +3,12 @@ import React from "react";
 export default function Experience() {
 
     return (
-        <div className="flex flex-col xl:flex-row size-full p-1 justify-center  items-center text-white space-x-5">
-            <div className="flex w-full xl:w-1/5 justify-center">
-                <h1 className="text-secondary size-full text-3xl font-bold border-white border-b-4 p-3">Professional Experience</h1></div>
-            <div className="flex flex-col max-w-5xl h-4/6 xl:h-5/6 overflow-y-scroll no-scrollbar py-10">
+        <div className="flex flex-col xl:flex-row h-fit p-1 justify-center items-center text-white space-x-5">
+            <div className="flex w-full xl:w-1/5 justify-center px-2">
+                <h1 className="text-secondary size-full text-3xl font-bold border-white border-b-4 pt-12">Professional Experience</h1></div>
+            <div className="flex flex-col max-w-5xl overflow-y-scroll no-scrollbar py-5">
                 <div className="w-full pb-2">
-                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-3 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
                         <h2 className="font-bold text-xl xl:text-2xl">Computer Lab Manager</h2>
                         <div className="flex flex-col xs:flex-row place-content-between">
                             <h4 className="font-semi-bold text-lg py-1">Office of Information Technology at University of California - Merced</h4>
@@ -17,7 +17,7 @@ export default function Experience() {
                             </div>
                         </div>
                         <p className="text-sm py-2">Led a university-wide hardware refresh by selecting, procuring, and deploying 167 ASUS NUC workstations and Dell monitors, ensuring Windows 11 compatibility and adherence to budget. Managed Remote Lab infrastructure via AWS (AppStream 2.0, Athena), overseeing deployment and maintenance of virtual instances to support teaching and research. Administered server-based imaging and license renewals, streamlining system maintenance and ensuring consistent uptime for academic labs. Automated annual and semi-annual software deployments and licensing for 300+ Windows systems across campus.</p>
-                        <div className="flex flex-wrap sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-3">
+                        <div className="flex flex-wrap space-x-3 space-y-2 pt-3">
                             <div className="flex flex-row font-semi-bold text-sm justify-center space-x-2 bg-accent rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>Amazon Web Services</h2>
                                 <img className="size-5" src="../Amazon.svg" alt="AWS Logo"/>

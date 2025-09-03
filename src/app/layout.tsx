@@ -22,14 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="stars">
-          <div className="twinkling">
             <nav className={openSans.className + " w-full"}>
               <HomeNavbar />
             </nav>
-            <main className={openSans.className}>
+            <main className={openSans.className + "h-full"}>
             {children}
             </main>
-          </div>
       </body>
     </html>
   );
