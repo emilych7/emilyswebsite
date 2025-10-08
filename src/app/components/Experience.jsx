@@ -3,10 +3,14 @@ import React from "react";
 export default function Experience() {
 
     return (
-        <div className="flex flex-col xl:flex-row h-fit p-1 justify-center items-center text-white space-x-5">
-            <div className="flex w-full xl:w-1/5 justify-center px-2">
-                <h1 className="text-secondary size-full text-3xl font-bold border-white border-b-4 pt-12">Professional Experience</h1></div>
-            <div className="flex flex-col max-w-5xl overflow-y-scroll no-scrollbar py-5">
+        <div className="flex flex-col xl:flex-row h-fit p-1 justify-center text-white space-x-5">
+            <div className="flex w-full xl:w-1/5 justify-start px-2">
+            <div className="h-fit w-full border-b border-white">
+                <h1 className="text-secondary size-full text-3xl font-bold border-white border-b-4 pt-12 p-3">Professional Experience</h1>
+                </div>
+                </div>
+
+            <div className="flex flex-col max-w-5xl overflow-y-scroll no-scrollbar py-10 px-5">
                 <div className="w-full pb-2">
                     <div className="flex flex-col p-3 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
                         <h2 className="font-bold text-xl xl:text-2xl">Computer Lab Manager</h2>

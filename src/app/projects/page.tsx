@@ -1,9 +1,11 @@
 "use client";
 import React from 'react';
-import ProjectOverview from "../components/ProjectOverview";
-import ProjectOverviewSingleImage from "../components/ProjectOverviewSingleImage";
-import ValtImageOne from "../../../public/OnBoardingView.svg";
+import ValtProjectOverview from "../components/ValtProjectOverview";
+import UCMProjectOverview from "../components/UCMProjectOverview";
+import WebsiteProjectOverview from "../components/WebsiteProjectOverview";
 import WebImageOne from "../../../public/WebsiteDemo.gif";
+import ComputerLabsImageOne from "../../../public/ComputerLabs.png";
+import ValtImageOne from "../../../public/OnBoardingView.svg";
 import ValtImageTwo from "../../../public/LaunchDark.svg";
 import ValtImageThree from "../../../public/HomeView.svg";
 import ValtImageFour from "../../../public/PromptsView.svg";
@@ -13,11 +15,11 @@ import ValtImageSix from "../../../public/ProfileView.svg";
 export default function Projects() {
 
   return (
-    <main className="overflow-y-scroll no-scrollbar snap-mandatory snap-y px-10 h-screen">
+    <main className="overflow-y-scroll no-scrollbar snap-mandatory snap-y px-10 h-screen twinkling">
       <section className="snap-center h-screen flex items-center justify-center">
-        <ProjectOverview
+        <ValtProjectOverview
           title="Valt: A Safe Space for Your Deepest Thoughts"
-          description="Valt is your private, digital vault. It's a space to write without fear. No leaks. No judgement. Just you and your thoughts. Create meaningful notes in Home. After a few drafts, Valt's AI will generate custom prompts that help you dive even deeper. Only you can access your Valt. Notes stay encrypted and out of sight. Want extra privacy? AI doesn't need to see it either."
+          description="Valt is your private, digital vault. It's a space to write without fear. No leaks. No judgement. Just you and your thoughts. Create meaningful notes in Home. After a few drafts, Valt's AI will generate custom prompts that help you dive even deeper."
           GitHub="https://github.com/emilych7/Valt"
           Figma="https://www.figma.com/design/FGI0SCTzRy14UYWoKWPDGY/Valt?node-id=0-1&t=mrbxGlCgih8taODd-1"
           ImageOne={ValtImageOne}
@@ -25,14 +27,27 @@ export default function Projects() {
           ImageThree={ValtImageThree}
           ImageFour={ValtImageFour}
           ImageFive={ValtImageFive}
-          ImageSix={ValtImageSix}/>
+          ImageSix={ValtImageSix}
+          tools="*created with Swift for iOS and iPadOS"/>
       </section>
       <section className="snap-center h-screen flex items-center justify-center">
-        <ProjectOverviewSingleImage
+        <UCMProjectOverview
+          title="it.ucmerced.edu"
+          description="These university web pages were redesigned to present the most up-to-date information on computer labs with greater clarity and accessibility. The update introduced new UI components and a more thoughtful flow between pages to improve usability and public transparency."
+          Figma="https://www.figma.com/design/vSeZ96gaOk0LRR9oRAWsW0/ComputerLabs?node-id=0-1&t=enQRvHqWqeNeC046-1"
+          webpage1="https://it.ucmerced.edu/computer_labs"
+          webpage2="https://it.ucmerced.edu/remotelab"
+          webpage3="https://it.ucmerced.edu/request-lab-software"
+          ImageOne={ComputerLabsImageOne}
+          tools="*created using HTML, CSS, and JavaScript on Drupal"/>
+      </section>
+      <section className="snap-center h-screen flex items-center justify-center">
+        <WebsiteProjectOverview
           title="emilychrisann.com"
           description="This is my personal website that I use as an avenue to share information on my professional background and programming projects. This platform allows others to reach me via a contact form, GitHub, or LinkedIn."
           GitHub="https://github.com/emilych7/emilyswebsite"
-          ImageOne={WebImageOne}/>
+          ImageOne={WebImageOne}
+          tools="*created with React, Tailwind CSS, and DaisyUI for mobile/desktop web environments"/>
       </section>
     </main>
   )
