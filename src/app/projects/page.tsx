@@ -2,6 +2,7 @@
 import React from 'react';
 import ValtProjectOverview from "../components/ValtProjectOverview";
 import UCMProjectOverview from "../components/UCMProjectOverview";
+import FigmaOverView from "../components/FigmaOverView";
 import WebsiteProjectOverview from "../components/WebsiteProjectOverview";
 import WebImageOne from "../../../public/WebsiteDemo.gif";
 import ComputerLabsImageOne from "../../../public/ComputerLabs.png";
@@ -15,7 +16,7 @@ import ValtImageSix from "../../../public/ProfileView.svg";
 export default function Projects() {
 
   return (
-    <main className="overflow-y-scroll no-scrollbar snap-mandatory snap-y px-10 h-screen twinkling">
+    <main className="overflow-y-scroll no-scrollbar snap-mandatory snap-y px-10  twinkling">
       <section className="snap-center h-screen flex items-center justify-center">
         <ValtProjectOverview
           title="Valt: A Safe Space for Your Deepest Thoughts"
@@ -40,6 +41,13 @@ export default function Projects() {
           webpage3="https://it.ucmerced.edu/request-lab-software"
           ImageOne={ComputerLabsImageOne}
           tools="*created using HTML, CSS, and JavaScript on Drupal"/>
+      </section>
+      <section className="snap-center h-screen flex items-center justify-center">
+        <FigmaOverView
+          title="Figma Prototype"
+          description="I created a high-fidelity Figma prototype for a habit-tracking application. The design was refined throughout the semester through needfinding and evaluation methods to improve user understanding and interaction flow. This deliverable received an A and represented my full design and research process from concept to final prototype."
+          Figma="https://www.figma.com/design/gdCeg0bDbQAt08JPQwAdfL/FinalPrototype?node-id=0-1&t=B4vWS4d7tQ2hIXVC-1"
+          tools="*Figma only"/>
       </section>
       <section className="snap-center h-screen flex items-center justify-center">
         <WebsiteProjectOverview
