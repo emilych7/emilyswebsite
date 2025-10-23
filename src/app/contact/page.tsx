@@ -3,8 +3,8 @@ import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
   return (
-      <main className="h-screen twinkling">
-        <section className='h-screen'>
+      <main className="twinkling overflow-y-scroll no-scrollbar snap-mandatory snap-y px-10">
+        <section className="h-screen snap-center flex items-center justify-center">
           <ContactForm />
         </section>
       </main>
