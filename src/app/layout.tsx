@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Emily Chrisann Hernandez",
   description: "Emily's Personal Website",
   openGraph: {
-    title: 'Emily Chrisann Hernandez',
+    title: 'My Personal Website',
     description: "Emily's Personal Website",
     url: 'https://emilychrisann.com',
     siteName: 'Emily Chrisann Hernandez',
