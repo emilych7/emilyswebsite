@@ -4,16 +4,16 @@ export default function Experience() {
 
     return ( 
         
-        <div className="flex flex-col xl:flex-row p-1 justify-center text-white size-fit  bg-black border border-1 border-secondary rounded-xl">
+        <div className="flex flex-col xl:flex-row p-1 justify-center text-white size-fit bg-black border border-1 border-secondary rounded-xl">
             <div className="flex w-full xl:max-w-md justify-start px-10 p-4 items-center">
             <div className="h-fit w-full border-b border-white">
                 <h1 className="text-secondary text-center xl:text-left size-full text-3xl md:text-4xl xl:text-5xl font-bold border-white border-b-4 py-3">Professional Experience</h1>
                 </div>
                 </div>
 
-            <div className="flex flex-col overflow-y-scroll no-scrollbar max-w-4xl justify-center space-y-5 p-4">
+            <div className="flex flex-col overflow-y-scroll no-scrollbar max-w-3xl justify-center space-y-5 p-4">
                 <div className="w-full pb-2">
-                    <div className="flex flex-col p-3 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
                         <h2 className="font-bold text-xl xl:text-2xl">Computer Lab Manager</h2>
                         <div className="flex flex-col xs:flex-row place-content-between">
                             <h4 className="font-semi-bold text-lg py-1">Office of Information Technology at University of California - Merced</h4>
