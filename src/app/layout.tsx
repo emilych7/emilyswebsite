@@ -12,6 +12,22 @@ const openSans = Open_Sans ({
 export const metadata: Metadata = {
   title: "Emily Chrisann Hernandez",
   description: "Emily's Personal Website",
+  openGraph: {
+    title: 'Emily Chrisann Hernandez',
+    description: "Emily's Personal Website",
+    url: 'https://emilychrisann.com',
+    siteName: 'Emily Chrisann Hernandez',
+    images: [
+      {
+        url: 'https://yourdomain.com/metadata-image.jpg', 
+        width: 1200,
+        height: 630, 
+        alt: 'Preview Image',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
