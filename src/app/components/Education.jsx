@@ -11,7 +11,7 @@ export default function Education() {
                 </div>
             <div className="flex flex-col overflow-y-scroll no-scrollbar max-w-4xl justify-center space-y-5 p-4">
                 <div className="w-full pb-2">
-                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black ">
+                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white">
                         <h2 className="font-bold text-xl xl:text-2xl">Master of Science in Computer Science</h2>
                         <h4 className="font-semi-bold text-lg py-1">Georgia Institute of Technology</h4>
                         <p className="text-sm py-2">Specialization in Human-Computer Interaction</p>
@@ -23,7 +23,7 @@ export default function Education() {
                     </div>
                 </div>
                 <div className="w-full pb-2">
-                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white ">
                         <h2 className="font-bold text-xl xl:text-2xl">Bachelor of Arts in Psychology</h2>
                         <h4 className="font-semi-bold text-lg py-1">University of California, Davis</h4>
                         <p className="text-sm py-2">Relevant coursework in Calculus, Research Methods, Developmental Psychobiology, Cognitive Neuroscience</p>
@@ -35,7 +35,7 @@ export default function Education() {
                     </div>
                 </div>
                 <div className="w-full pb-2">
-                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white">
                         <h2 className="font-bold text-xl xl:text-2xl">Supplemental Coursework</h2>
                         <h4 className="font-semi-bold text-lg py-1">Merced Community College</h4>
                         <p className="text-sm py-2">Computer Info Systems, Programming Concepts (Python), App Development and Programming (Python), Advanced C++ Programming, Linear Algebra, Statistics</p>

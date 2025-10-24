@@ -13,7 +13,7 @@ export default function Experience() {
 
             <div className="flex flex-col overflow-y-scroll no-scrollbar max-w-3xl justify-center space-y-5 p-4">
                 <div className="w-full pb-2">
-                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white ">
                         <h2 className="font-bold text-xl xl:text-2xl">Computer Lab Manager</h2>
                         <div className="flex flex-col xs:flex-row place-content-between">
                             <h4 className="font-semi-bold text-lg py-1">Office of Information Technology at University of California - Merced</h4>
@@ -36,7 +36,7 @@ export default function Experience() {
                     </div>
                 </div>
                 <div className="w-full pb-2">
-                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white">
                         <h2 className="font-bold text-xl xl:text-2xl">Intern in Software Development</h2>
                         <div className="flex flex-col xs:flex-row place-content-between">
                             <h4 className="font-semi-bold text-lg py-1">Bay Valley Tech in Modesto, California</h4>
@@ -70,7 +70,7 @@ export default function Experience() {
                     </div>
                 </div>
                 <div className="w-full pb-2">
-                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white ">
                         <h2 className="font-bold text-xl xl:text-2xl">Undergraduate Research Assistant</h2>
                         <div className="flex flex-col xs:flex-row place-content-between">
                             <h4 className="font-semi-bold text-lg py-1">University of California Pavement Research Center in Davis, California</h4>
@@ -88,7 +88,7 @@ export default function Experience() {
                     </div>
                 </div>
                 <div className="w-full pb-2">
-                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white hover:bg-white hover:text-black">
+                    <div className="flex flex-col p-4 rounded-xl text-left transition ease-in-out duration-150 text-white ">
                         <h2 className="font-bold text-xl xl:text-2xl">Research Assistant in Cardiovascular Tissue Engineering</h2>
                         <div className="flex flex-col xs:flex-row place-content-between">
                             <h4 className="font-semi-bold text-lg py-1">Center for Cellular and Biomolecular Machines at University of California - Merced</h4>
