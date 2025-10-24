@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'Emily Chrisann Hernandez',
     images: [
       {
-        url: 'https://yourdomain.com/metadata-image.jpg', 
+        url: 'https://emilychrisann.com/metadata-image.jpg', 
         width: 1200,
         height: 630, 
         alt: 'Preview Image',
