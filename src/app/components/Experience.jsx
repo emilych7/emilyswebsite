@@ -21,9 +21,10 @@ export default function Experience() {
                             <h5 className="font-semi-bold text-md">Dec 2023 to Present</h5>
                             </div>
                         </div>
-                        <p className="text-sm py-2">Led a university-wide hardware refresh by selecting, procuring, and deploying 167 ASUS NUC workstations and Dell monitors, ensuring Windows 11 compatibility and adherence to budget. Managed Remote Lab infrastructure via AWS (AppStream 2.0, Athena), overseeing deployment and maintenance of virtual instances to support teaching and research. Administered server-based imaging and license renewals, streamlining system maintenance and ensuring consistent uptime for academic labs. Automated annual and semi-annual software deployments and licensing for 300+ Windows systems across campus.</p>
+                        <p className="text-sm pt-3 pb-1">- Redesigned department webpages using HTML, CSS, and JavaScript to move away from text-heavy layouts and created a
+shared structured menu for flow when presenting technical info to students.</p> <p className="text-sm py-1">- Managed Remote Lab infrastructure on AWS AppStream 2.0, troubleshooted virtual instance software, and handled licensing.</p> <p className="text-sm py-1">- Maintained a server-based imaging system, license renewals and services via LabMan, and automated software deployments for 250+ Windows systems using PowerShell.</p> <p className="text-sm py-1">- Led university-wide OS upgrade and hardware refresh by selecting, procuring, and deploying 155 NUCs and 167 monitors based on campus computing needs.</p>
                         <div className="flex flex-wrap space-x-4 space-y-2 pt-3">
-                            <div className="flex flex-row text-sm justify-center space-x-2 bg-accent rounded-full shadow-md px-4 py-1 text-white">
+                            <div className="flex flex-row text-sm justify-center items-center space-x-2 bg-accent rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>Amazon Web Services</h2>
                                 <img className="size-5" src="../Amazon.svg" alt="AWS Logo"/>
                             </div>
@@ -44,7 +45,8 @@ export default function Experience() {
                             <h5 className="font-semi-bold text-md">Sept 2023 to May 2024</h5>
                             </div>
                         </div>
-                        <p className="text-sm py-2">Designed responsive UI components using JavaScript, HTML, CSS, and React.js. Implemented authentication and authorization methods using middleware for Node.js. Facilitated the release of new features using Git for version control and participated in code reviews on GitHub. Prioritized cross-browser compatibility, responsiveness, and accessibility of web applications to enhance the user experience.</p>
+                        <p className="text-sm pt-3 pb-1">- Created interactive components with JavaScript, React, and Next.JS for a web Discord clone application.</p> <p className="text-sm py-1">- Helped establish application assets by selecting icons and themes that balanced the project's identity with HCI design
+principles.</p> <p className="text-sm py-1">- Spent time learning and implementing login/signup authorization for persistent user sessions in web applications.</p> <p className="text-sm py-1">- Worked with a team of developers to keep our project code organized and up to date using Git for version control.</p>
                         <div className="grid grid-cols-2 gap-4 sm:flex sm:flex-wrap w-full space-x-4 sm:space-y-0 sm:space-x-4 pt-3">
                             <div className="flex flex-row text-sm justify-center space-x-2 bg-accent rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>JavaScript</h2>
@@ -78,13 +80,13 @@ export default function Experience() {
                             <h5 className="font-semi-bold text-md">Feb 2020 to Dec 2020</h5>
                             </div>
                         </div>
-                        <p className="text-sm py-2">Collected hundreds of samples and prepared specimens of pavement related materials for testing. Utilized MATLAB for data analysis of full-scale accelerated pavement tests conducted with a Heavy Vehicle Simulator. Organized data observations into a quantitative log system for data interpretation by engineers and main operators. Optimized data accessibility and accuracy by refining and updating file structures existing for over 10 years.</p>
-                        <div className="flex flex-row space-x-4 pt-3">
+                        <p className="text-sm pt-3 pb-1">- Supported pavement testing at the ATIRC track by monitoring the Heavy Vehicle Simulator, collecting temperature data, and logging field observations.</p> <p className="text-sm py-1">- Prepared and tested specimens of alternative materials such as low-carbon cements and recycled aggregates to confirm quality standards for CalTrans pilot projects.</p> <p className="text-sm py-1">- Assisted with general lab operations which included migrating lab data onto cloud storage methods to facilitate remote work during the pandemic. </p>
+                        {/* <div className="flex flex-row space-x-4 pt-3">
                             <div className="flex flex-row text-sm justify-center space-x-1 bg-accent rounded-full shadow-md px-4 py-1 text-white">
                                 <h2>MATLAB</h2>
                                 <img className="size-5" src="../MATLAB.svg" alt="AWS Logo"/>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="w-full pb-2">
@@ -96,12 +98,21 @@ export default function Experience() {
                             <h5 className="font-semi-bold text-md">May 2018 to Nov 2018</h5>
                             </div>
                         </div>
-                        <p className="text-sm py-2">Cultivated cell cultures with various dyes to distinguish cellular structures for precise fluorescence microscopy imaging. Generated visual data of layered microscopy images showing epithelial cells, nuclei, and cell membranes of cardiac tissue. Presented research on stem cell imaging to a poster session sponsored by CCBM and the National Science Foundation (NSF). Featured guest discussing my research experience on radio show “Community Conversations” with Roger Wood on KYOS. </p>
+                        <p className="text-sm py-2">- Performed immunofluorescence imaging of differentiated embryonic stem cells, using TxRed, FITC, and DAPI dyes to visualize epithelial cells, nuclei, and cell membranes.</p> <p className="text-sm py-1">- Produced high-resolution composite images by merging and stitching three layers of image data.</p> <p className="text-sm py-1">- Cultured Mouse Embryonic Fibroblasts on hydrogel substrates to observe cell maturation.</p> <p className="text-sm py-1">- Presented a research poster at the NSF-CREST CCBM Open House to cover research experiences, results, and conclusion.</p> <p className="text-sm py-1">- Featured on Community Conversations with Roger Wood radio show to discuss the importance of STEM outreach at UCM.</p>
                         <div className="flex flex-row space-x-4 pt-3">
-                            <div className="flex flex-row text-sm justify-center space-x-1 bg-accent rounded-full shadow-md px-4 py-1 text-white">
-                                <h2>R and RStudio</h2>
-                                <img className="size-5" src="../R.svg" alt="AWS Logo"/>
+                            <a href="https://docs.google.com/presentation/d/1sm7eizq6hOzT7gApIN5sDRZhRbstke7wxMVN6d3lJc4/edit?usp=sharing">
+                            <div className="flex flex-row text-sm justify-center items-center space-x-1 bg-accent rounded-full shadow-md px-4 py-1 text-white">
+                                <h2>See Poster</h2>
+                                <img className="size-4" src="../External-Link.svg" alt="See Poster on Google Drive"/>
                             </div>
+                            </a>
+
+                            <a href="https://drive.google.com/file/d/1mivWaS0TbuPnt34ehRIYPwNDLW7ItTLH/view?usp=sharing">
+                            <div className="flex flex-row text-sm justify-center items-center space-x-1 bg-accent rounded-full shadow-md px-4 py-1 text-white">
+                                <h2>Listen</h2>
+                                <img className="size-4" src="../External-Link.svg" alt="Listen"/>
+                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
